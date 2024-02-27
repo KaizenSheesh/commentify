@@ -1,9 +1,9 @@
 <?php
 
 use Livewire\Livewire;
-use Usamamuneerchaudhary\Commentify\Models\Comment;
-use Usamamuneerchaudhary\Commentify\Http\Livewire\Comments;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Models\Comment;
+use KaizenSheesh\Commentify\Http\Livewire\Comments;
+use KaizenSheesh\Commentify\Models\User;
 
 class CommentsComponentTest extends TestCase
 {

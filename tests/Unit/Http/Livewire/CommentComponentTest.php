@@ -2,10 +2,10 @@
 
 use Illuminate\Contracts\View\View;
 use Livewire\Livewire;
-use Usamamuneerchaudhary\Commentify\Http\Livewire\Comments;
-use Usamamuneerchaudhary\Commentify\Models\Comment;
-use Usamamuneerchaudhary\Commentify\Http\Livewire\Comment as LivewireComment;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Http\Livewire\Comments;
+use KaizenSheesh\Commentify\Models\Comment;
+use KaizenSheesh\Commentify\Http\Livewire\Comment as LivewireComment;
+use KaizenSheesh\Commentify\Models\User;
 
 class CommentComponentTest extends TestCase
 {
@@ -40,7 +40,7 @@ class CommentComponentTest extends TestCase
     public function it_can_edit_a_comment()
     {
         $this->actingAs($this->user);
-        Livewire::test(\Usamamuneerchaudhary\Commentify\Http\Livewire\Comments::class, [
+        Livewire::test(\KaizenSheesh\Commentify\Http\Livewire\Comments::class, [
             'model' => $this->article
         ])
             ->set('newCommentState.body', $this->comment->body)

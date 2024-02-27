@@ -1,7 +1,7 @@
 <?php
 
-use Usamamuneerchaudhary\Commentify\Models\Comment;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Models\Comment;
+use KaizenSheesh\Commentify\Models\User;
 
 class CommentTest extends TestCase
 {

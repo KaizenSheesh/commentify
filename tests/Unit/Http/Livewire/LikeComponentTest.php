@@ -1,8 +1,8 @@
 <?php
 
 use Livewire\Livewire;
-use Usamamuneerchaudhary\Commentify\Http\Livewire\Like;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Http\Livewire\Like;
+use KaizenSheesh\Commentify\Models\User;
 
 class LikeComponentTest extends TestCase
 {

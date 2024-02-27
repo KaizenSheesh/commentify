@@ -1,9 +1,9 @@
 <?php
 
-use Usamamuneerchaudhary\Commentify\Models\Presenters\CommentPresenter;
-use Usamamuneerchaudhary\Commentify\Models\Comment;
+use KaizenSheesh\Commentify\Models\Presenters\CommentPresenter;
+use KaizenSheesh\Commentify\Models\Comment;
 use Illuminate\Support\HtmlString;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Models\User;
 
 class CommentPresenterTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Database\Eloquent\Model;
-use Usamamuneerchaudhary\Commentify\Scopes\CommentScopes;
+use KaizenSheesh\Commentify\Scopes\CommentScopes;
 
 class EpisodeStub extends Model
 {
-    use \Usamamuneerchaudhary\Commentify\Traits\Commentable;
+    use \KaizenSheesh\Commentify\Traits\Commentable;
 
     protected $connection = 'testbench';
 
