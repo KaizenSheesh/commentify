@@ -31,7 +31,7 @@
     </div>
 
     <button wire:loading.attr="disabled" type="submit"
-            class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+            class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800" style="background-color: blue">
         <div wire:loading wire:target="{{$method}}">
             @include('commentify::livewire.partials.loader')
         </div>
