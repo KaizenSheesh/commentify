@@ -1,6 +1,6 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Http\Livewire;
+namespace KaizenSheesh\Commentify\Http\Livewire;
 
 
 use Illuminate\Contracts\View\Factory;
@@ -15,7 +15,7 @@ class Like extends Component
     public $count;
 
 
-    public function mount(\Usamamuneerchaudhary\Commentify\Models\Comment $comment): void
+    public function mount(\KaizenSheesh\Commentify\Models\Comment $comment): void
     {
         $this->comment = $comment;
         $this->count = $comment->likes_count;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Http\Livewire;
+namespace KaizenSheesh\Commentify\Http\Livewire;
 
 
 use Illuminate\Contracts\View\Factory;

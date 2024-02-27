@@ -1,15 +1,15 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Providers;
+namespace KaizenSheesh\Commentify\Providers;
 
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
-use Usamamuneerchaudhary\Commentify\Http\Livewire\Comment;
-use Usamamuneerchaudhary\Commentify\Http\Livewire\Comments;
-use Usamamuneerchaudhary\Commentify\Http\Livewire\Like;
-use Usamamuneerchaudhary\Commentify\Policies\CommentPolicy;
+use KaizenSheesh\Commentify\Http\Livewire\Comment;
+use KaizenSheesh\Commentify\Http\Livewire\Comments;
+use KaizenSheesh\Commentify\Http\Livewire\Like;
+use KaizenSheesh\Commentify\Policies\CommentPolicy;
 
 class CommentifyServiceProvider extends ServiceProvider
 {
@@ -22,7 +22,7 @@ class CommentifyServiceProvider extends ServiceProvider
             return new CommentPolicy;
         });
 
-        Gate::policy(\Usamamuneerchaudhary\Commentify\Models\Comment::class, CommentPolicy::class);
+        Gate::policy(\KaizenSheesh\Commentify\Models\Comment::class, CommentPolicy::class);
 
         $this->app->register(MarkdownServiceProvider::class);
     }

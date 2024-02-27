@@ -1,6 +1,6 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Providers;
+namespace KaizenSheesh\Commentify\Providers;
 
 
 use Illuminate\Support\ServiceProvider;

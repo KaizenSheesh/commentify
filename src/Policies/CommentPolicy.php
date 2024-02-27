@@ -1,10 +1,10 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Policies;
+namespace KaizenSheesh\Commentify\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Illuminate\Auth\Access\Response;
-use Usamamuneerchaudhary\Commentify\Models\Comment;
+use KaizenSheesh\Commentify\Models\Comment;
 
 class CommentPolicy
 {

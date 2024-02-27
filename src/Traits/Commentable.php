@@ -1,9 +1,9 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Traits;
+namespace KaizenSheesh\Commentify\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Usamamuneerchaudhary\Commentify\Models\Comment;
+use KaizenSheesh\Commentify\Models\Comment;
 
 trait Commentable
 {

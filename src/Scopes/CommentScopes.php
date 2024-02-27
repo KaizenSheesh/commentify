@@ -1,6 +1,6 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Scopes;
+namespace KaizenSheesh\Commentify\Scopes;
 
 
 use Illuminate\Database\Eloquent\Builder;

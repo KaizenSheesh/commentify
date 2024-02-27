@@ -1,6 +1,6 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Http\Livewire;
+namespace KaizenSheesh\Commentify\Http\Livewire;
 
 
 use Illuminate\Auth\Access\AuthorizationException;
@@ -11,7 +11,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Support\Str;
 use Livewire\Attributes\On;
 use Livewire\Component;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Models\User;
 
 class Comment extends Component
 {

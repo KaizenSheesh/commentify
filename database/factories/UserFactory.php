@@ -1,10 +1,10 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Database\Factories;
+namespace KaizenSheesh\Commentify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Models\User;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>

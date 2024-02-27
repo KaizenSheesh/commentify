@@ -1,6 +1,6 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Models;
+namespace KaizenSheesh\Commentify\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -8,10 +8,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Usamamuneerchaudhary\Commentify\Database\Factories\CommentFactory;
-use Usamamuneerchaudhary\Commentify\Models\Presenters\CommentPresenter;
-use Usamamuneerchaudhary\Commentify\Scopes\CommentScopes;
-use Usamamuneerchaudhary\Commentify\Scopes\HasLikes;
+use KaizenSheesh\Commentify\Database\Factories\CommentFactory;
+use KaizenSheesh\Commentify\Models\Presenters\CommentPresenter;
+use KaizenSheesh\Commentify\Scopes\CommentScopes;
+use KaizenSheesh\Commentify\Scopes\HasLikes;
 
 class Comment extends Model
 {

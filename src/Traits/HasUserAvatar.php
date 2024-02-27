@@ -1,6 +1,6 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Traits;
+namespace KaizenSheesh\Commentify\Traits;
 
 trait HasUserAvatar
 {

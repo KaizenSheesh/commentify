@@ -1,10 +1,10 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Models\Presenters;
+namespace KaizenSheesh\Commentify\Models\Presenters;
 
 use Illuminate\Support\HtmlString;
-use Usamamuneerchaudhary\Commentify\Models\Comment;
-use Usamamuneerchaudhary\Commentify\Models\User;
+use KaizenSheesh\Commentify\Models\Comment;
+use KaizenSheesh\Commentify\Models\User;
 
 class CommentPresenter
 {

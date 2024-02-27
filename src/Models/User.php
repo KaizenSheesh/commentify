@@ -1,11 +1,11 @@
 <?php
 
-namespace Usamamuneerchaudhary\Commentify\Models;
+namespace KaizenSheesh\Commentify\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as BaseUser;
-use Usamamuneerchaudhary\Commentify\Database\Factories\UserFactory;
-use Usamamuneerchaudhary\Commentify\Traits\HasUserAvatar;
+use KaizenSheesh\Commentify\Database\Factories\UserFactory;
+use KaizenSheesh\Commentify\Traits\HasUserAvatar;
 
 class User extends BaseUser
 {
