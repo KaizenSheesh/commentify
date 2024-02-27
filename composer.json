@@ -1,5 +1,6 @@
 {
     "name": "kaizensheesh/commentify",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "KaizenSheesh",
@@ -23,7 +24,6 @@
         }
     },
     "require": {
-        "kaizensheesh/commentify": "dev-master",
         "php": "^8.1",
         "illuminate/database": "*",
         "illuminate/support": "*",
