@@ -1,8 +1,8 @@
 {
-    "name": "usamamuneerchaudhary/commentify",
+    "name": "kaizensheesh/commentify",
     "description": "Easy Laravel Livewire Comments with TailwindCSS UI",
     "keywords": [
-        "usamamuneerchaudhary",
+        "KaizenSheesh",
         "laravel-livewire",
         "livewire",
         "comments",
@@ -20,8 +20,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Usamamuneerchaudhary\\Commentify\\": "src",
-            "Usamamuneerchaudhary\\Commentify\\Database\\Factories\\": "database/factories"
+            "KaizenSheesh\\Commentify\\": "src",
+            "KaizenSheesh\\Commentify\\Database\\Factories\\": "database/factories"
         }
     },
     "require": {
@@ -51,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Usamamuneerchaudhary\\Commentify\\Providers\\MarkdownServiceProvider"
+                "KaizenSheesh\\Commentify\\Providers\\MarkdownServiceProvider"
             ]
         }
     },
